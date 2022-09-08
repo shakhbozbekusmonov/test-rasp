@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #696B56;
+  overflow-x: hidden;
+// Home Container
+  .container {
+    height: calc(100vh - 120px);
+
+    h3 {
+      color: #fff;
+    }
+  }
+
+// class styles
+  .table{
+    width: 100%;
+   @media (max-width: 900px) {
+     thead{
+       tr{
+         th{
+           font-size: 13px;
+         }
+       }
+     }
+     tbody{
+       tr{
+         td{
+           font-size: 12px;
+         }
+       }
+     }
+   }
+  }
+}
